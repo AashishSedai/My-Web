@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header, footer { background-color: #333; color: white; text-align: center; padding: 1rem; }
+        section { text-align: center; padding: 2rem; }
+        form { display: block; margin-top: 1rem; }
+        input, textarea { margin: 1rem 0; padding: 0.8rem; width: 300px; }
+        button { padding: 1rem 2rem; background-color: #333; color: white; border: none; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Contact Me</h1>
+    </header>
+
+    <!-- Contact Form Section -->
+    <section>
+        <h2>I'd love to hear from you!</h2>
+        <form action="https://formspree.io/f/mzzblolj" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Aashish Sedai. All rights reserved.</p>
+    </footer>
+</body>
+</html>
